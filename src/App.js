@@ -1,11 +1,16 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import { Book } from "lucide-react";
 
 function App() {
   return (
     <div className="App">
+      <h1>
+        Dictionary
+        <Book color="#DD5353" size={30} />
+      </h1>
       <div className="container">
-        <Dictionary />
+        <Dictionary defaultKeyword="record" />
         <footer>
           This project was coded by{" "}
           <a

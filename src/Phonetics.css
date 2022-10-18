@@ -1,0 +1,11 @@
+.Phonetics {
+  opacity: 0.7;
+  font-weight: bold;
+}
+.Phonetics a {
+  color: #a8e890;
+}
+
+.Phonetics a:hover {
+  color: #cfff8d;
+}
