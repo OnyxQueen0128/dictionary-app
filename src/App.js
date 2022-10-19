@@ -11,7 +11,7 @@ function App() {
         <Book color="#AC7D88" size={40} className="icon" />
       </span>
       <div className="container">
-        <Dictionary defaultKeyword="record" />
+        <Dictionary defaultKeyword="dictionary" />
         <footer>
           This project was coded by{" "}
           <a
