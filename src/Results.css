@@ -1,5 +1,7 @@
 .Results h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   line-height: 1.5;
+  color: #ac7d88;
+  text-transform: capitalize;
 }

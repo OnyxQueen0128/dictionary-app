@@ -1,16 +1,22 @@
 .Dictionary section {
-  background-color: #749f82;
+  background-color: #f8ede3;
   padding: 30px;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 7px 8px 18px rgba(89, 69, 69, 0.6);
+  box-shadow: 7px 8px 18px #dfd3c3;
+}
+
+.Dictionary h2 {
+  font-size: 26px;
+  color: #ac7d88;
+  margin-bottom: 10px;
 }
 
 .Dictionary .searchbar,
 .submitbutton {
   padding: 5px 10px;
   border-radius: 8px;
-  border: 1px solid #3d8361;
+  border: 1px solid #deb6ab;
 }
 
 .Dictionary .searchbar {
@@ -18,11 +24,12 @@
   color: #3d8361;
 }
 .Dictionary .submitbutton {
-  background-color: #3d8361;
+  background-color: #deb6ab;
+  margin-left: 10px;
   color: #fff8ea;
 }
 .Dictionary .hint {
-  color: #eef2e6;
+  color: #ac7d88;
   font-size: 13px;
   margin: 3px 2px 0 0;
 }

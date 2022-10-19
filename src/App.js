@@ -5,10 +5,11 @@ import { Book } from "lucide-react";
 function App() {
   return (
     <div className="App">
-      <h1>
-        Dictionary
-        <Book color="#DD5353" size={30} />
-      </h1>
+      <span>
+        <Book color="#AC7D88" size={40} className="icon" />
+        <h1>Dictionary</h1>
+        <Book color="#AC7D88" size={40} className="icon" />
+      </span>
       <div className="container">
         <Dictionary defaultKeyword="record" />
         <footer>
